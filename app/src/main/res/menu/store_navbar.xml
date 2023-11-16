@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/store"
+        android:icon="@drawable/nav_store"
+        android:id="@+id/Store_Navbar"/>
+    <item android:title="@string/QR"
+        android:icon="@drawable/nav_qr"
+        android:id="@+id/QR_Navbar"/>
+    <item android:title="@string/logout"
+        android:icon="@drawable/logout"
+        android:id="@+id/LogOut_Navbar"/>
+</menu>

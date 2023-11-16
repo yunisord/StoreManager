@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appname">#FEC242</color>
+    <color name="green">#00684E</color>
+    <color name="background">#E1FAFF</color>
+    <color name="loginbutton">#00A197</color>
+    <color name="hover_color">#000000</color>
+    <color name="gray">#8A8A8A</color>
+    <color name="transparent">#00000000</color>
+    <color name="GREEN">#00684E</color>
+    <color name="GRAY">#8A8A8A</color>
+    <color name="fadedgreen">#66a494</color>
+    <color name="lightgray">#d3d3d3</color>
+    <color name="sage">#B1E5E1</color>
+
+</resources>

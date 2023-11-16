@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E1FAFF"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="522dp"
+        android:layout_height="456dp"
+        android:contentDescription="@string/clouds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud" />
+
+
+    <TextView
+        android:id="@+id/AppName"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="88dp"
+        android:contentDescription="@string/AppName"
+        android:fontFamily="@font/montserrat_alternates_extrabold"
+        android:text="@string/AppName"
+        android:textAlignment="center"
+        android:textColor="@color/appname"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/email"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/email"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AppName" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="52dp"
+        android:fontFamily="@font/montserrat"
+        android:contentDescription="@string/password"
+        android:text="@string/password"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inpass"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/inputemail"
+        app:passwordToggleEnabled="true"
+        app:endIconMode="password_toggle">
+
+        <EditText
+            android:id="@+id/inputpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/li"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:background="@drawable/startbuttonbg_ok"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:elevation="3dp"
+        android:text="@string/LogIn"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/cloud"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AppName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

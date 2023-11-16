@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">StoreManager</string>
+    <string name="AppName">Historiaya</string>
+    <string name="TagLine">A Journey to the Past at Your Fingertips</string>
+    <string name="Augmented_Reality">Augmented Reality</string>
+    <string name="Tag_tag_line">Explore historical landmarks and cultural heritage sites through virtual tours with Augmented Reality technology.</string>
+    <string name="GetStarted">Get Started</string>
+    <string name="twopips">image</string>
+    <string name="rizal">image</string>
+    <string name="grass">image</string>
+    <string name="clouds">image</string>
+    <string name="newproject">image</string>
+    <string name="a210">image</string>
+
+    <!--login activity-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="LogIn">Log In</string>
+    <string name="forgotpass">Forgot Password ?</string>
+    <string name="or">or</string>
+    <string name="donot">Do not have an account?</string>
+    <string name="reg">Register Now</string>
+    <string name="face">image</string>
+    <string name="gmail">image</string>
+    <string name="inputpass">Password</string>
+    <string name="inpass">inpass</string>
+
+    <string name="store">Store</string>
+    <string name="shop">Shop</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <string name="addItem">Add an Item</string>
+    <string name="productdescription">Add product description</string>
+
+    <string name="QR">Scan QR</string>
+    <string name="logout">Log Out</string>
+</resources>

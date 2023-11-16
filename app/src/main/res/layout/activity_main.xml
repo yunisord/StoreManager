@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1FAFF"
+    android:textAlignment="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/clouds"
+        android:layout_width="442dp"
+        android:layout_height="442dp"
+        android:layout_marginBottom="220dp"
+        android:contentDescription="@string/clouds"
+        app:layout_constraintBottom_toBottomOf="@+id/rizal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cloud" />
+
+    <ImageView
+        android:id="@+id/rizal"
+        android:layout_width="435dp"
+        android:layout_height="458dp"
+        android:layout_marginTop="136dp"
+        android:contentDescription="@string/rizal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/newproject" />
+
+
+    <ImageView
+        android:id="@+id/grass"
+        android:layout_width="495dp"
+        android:layout_height="631dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/grass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grass_1" />
+
+    <ImageView
+        android:id="@+id/twopips"
+        android:layout_width="425dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/twopips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twopips" />
+
+    <TextView
+        android:id="@+id/AppName"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserrat_alternates_extrabold"
+        android:text="@string/AppName"
+        android:textAlignment="center"
+        android:textColor="@color/appname"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/TagLine"
+        app:layout_constraintEnd_toEndOf="@id/clouds"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/TagLine"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/TagLine"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_medium"
+        android:maxLines="2"
+        android:text="@string/TagLine"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rizal" />
+
+    <TextView
+        android:id="@+id/Tag_tag_line"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/montserrat"
+        android:maxLines="3"
+        android:text="@string/Tag_tag_line"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Augmented_Reality" />
+
+    <TextView
+        android:id="@+id/Augmented_Reality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/Augmented_Reality"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TagLine" />
+
+    <Button
+        android:id="@+id/GetStarted"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_button"
+        android:elevation="3dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/GetStarted"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rizal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
