@@ -83,6 +83,7 @@
             android:id="@+id/inputpass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:textSize="16sp" />

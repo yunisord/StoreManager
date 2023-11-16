@@ -1,7 +1,5 @@
 package com.example.storemanager;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -10,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -78,10 +78,9 @@ public class Login extends AppCompatActivity {
             }
         });
     }
-
-    private boolean isAdminUser(FirebaseUser user) {
-        // Replace with the email of your predetermined admin account
-        String adminEmail = "historiaya.acc@gmail.com";
-        return adminEmail.equals(user.getEmail());
-    }
+        private boolean isAdminUser(FirebaseUser user) {
+            // Replace with the email of your predetermined admin account
+            String adminEmail = "historiaya.acc@gmail.com";
+            return adminEmail.equals(user.getEmail());
+        }
 }
